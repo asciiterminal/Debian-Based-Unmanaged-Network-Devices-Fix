@@ -1,5 +1,5 @@
 Open your terminal and type 
-nano etc/NetworkManager/NetworkManager.conf
+nano /etc/NetworkManager/NetworkManager.conf
 under [ifupdown] edit managed = false to managed = true 
 then under [keyfile] comment a '#' before unmanaged devices 
 thats it!
