@@ -3,3 +3,4 @@ nano etc/NetworkManager/NetworkManager.conf
 under [ifupdown] edit managed = false to managed = true 
 then under [keyfile] comment a '#' before unmanaged devices 
 thats it!
+a shell code could've been made but the fix is faster and helps the user to keep track if the error occurs in the future.
